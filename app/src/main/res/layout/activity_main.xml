@@ -97,7 +97,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="550dp"
             android:text="@string/mulai" />
-        
+
     </FrameLayout>
 
 </FrameLayout>

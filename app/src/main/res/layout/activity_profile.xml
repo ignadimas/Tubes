@@ -4,10 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="50dp"
         tools:context=".ProfileActivity"
         android:id="@+id/layoutProfile">
 
@@ -17,6 +18,20 @@
             android:orientation="vertical"
             android:layout_margin="10dp">
 
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="296dp"
+                android:layout_height="269dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_account_box_24"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/capture_image_btn"
+                android:text="Capture Image"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -25,13 +40,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Nama  : "
-                        android:textSize="20dp"/>
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/tvNama"
                         android:layout_width="299dp"
                         android:layout_height="wrap_content"
-                        android:textSize="24dp" />
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -50,7 +67,8 @@
                         android:layout_width="292dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="3dp"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -69,11 +87,10 @@
                         android:layout_width="215dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="7dp"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
                 </LinearLayout>
             </LinearLayout>
-
-
 
     </androidx.cardview.widget.CardView>
 </layout>
