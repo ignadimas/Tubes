@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Car Rental </string>
+    <string name="splash">Car Rental Business</string>
+    <string name="warna_splash">#6E3E3E</string>
+    <string name="judul">SELAMAT DATANG DI CARRENT\'5</string>
+    <string name="perkenalan">Persewaan mobil paling terkenal di Yogyakarta dengan barbagai mobil yang tersedia. Isi dibawah ini terlebih dahulu.</string>
+    <string name="warna_background">Pilih warna background menu</string>
+
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_hp">Nomor Handphone</string>
+    <string name="mulai">MULAI</string>
+</resources>
